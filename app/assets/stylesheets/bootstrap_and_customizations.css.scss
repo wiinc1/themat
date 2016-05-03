@@ -1,1 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,400,700);
+
+$body-bg:                          #ecf0f1;
+$font-family-sans-serif:           'Comfortaa', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:                    45px;
+$navbar-default-bg:                #000000;
+$navbar-default-brand-color:       #e3263a;
+$brand-primary:                    #c0392b;
+$jumbotron-bg:                     white;
+
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
