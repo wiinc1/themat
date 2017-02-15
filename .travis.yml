@@ -1,5 +1,10 @@
 language: ruby
 rvm:
  - 2.3.1
+
+ deploy:
+  provider: heroku
+  api_key:
+    secure: b199fdc0-a342-4972-90c1-7f8f5828e08d
 # uncomment and edit the following line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
