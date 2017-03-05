@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   root "pages#home"
+  get 'signup' => 'users#new'
+  resources :users
   get "about" => "pages#about"
   get "team" => "pages#team"
   # The priority is based upon order of creation: first created -> highest priority.
