@@ -1,10 +1,8 @@
 deploy:
   provider: heroku
   api_key: b199fdc0-a342-4972-90c1-7f8f5828e08d
-  on:
-    branch: master
-    rvm: 2.2.0
+
   run:
     - "rake db:migrate"
     - restart
-    - "rake cleanup"  
+    - "rake cleanup"
