@@ -22,7 +22,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3'
 # User sign-up and administration
 gem 'devise'
-gem 'rack', '~> 2.0', '>= 2.0.1'
+gem 'rack', '~> 2.0'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
